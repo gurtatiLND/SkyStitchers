@@ -8,7 +8,6 @@ header {
     padding: 3%;
     color:rgb(255, 255, 255);
     text-align:center;
-    text-transform:uppercase;
     /* background-color: aqua; */
 }
 .navbar {
@@ -28,7 +27,7 @@ nav li,a {
     text-decoration: none;
     font-size: 110%;
     text-align:center;
-    text-transform:capitalize;
+    text-transform:uppercase;
 }
 
 nav img {
