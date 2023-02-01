@@ -1,5 +1,5 @@
 body {
-    padding: 1%;
+    padding: 3%;
     margin: 1%;
 }
 
@@ -22,12 +22,12 @@ nav li,a {
     margin-bottom:auto;
     border-radius: 5%;
     background-color: rgb(255, 255, 255);
-    color: rgb(42, 42, 161);
+    color: #01a3fe;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    font-size: 110%;
+    font-size: 120%;
     text-align:center;
-    text-transform:uppercase;
+    text-transform:capitalize;
 }
 
 nav img {
@@ -41,4 +41,21 @@ nav img {
 .active {
     font-weight:bold;
     /* background-color: rgb(213, 196, 85); */
+}
+
+main.ready {
+    margin-left: 10vw;
+    margin-right:10vw;
+}
+
+main.ready>div {
+    color: #01a3fe;
+    height:30vw;
+    background-color: rgba(87, 227, 227,0.5);
+    margin: 1%;
+
+}
+
+main.ready>div>h2 {
+    margin-top: 0;
 }
