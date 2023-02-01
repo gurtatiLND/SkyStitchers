@@ -1,5 +1,5 @@
 body {
-    padding: 2%;
+    padding: 1%;
     margin: 1%;
 }
 
@@ -9,23 +9,37 @@ header {
     color:rgb(255, 255, 255);
     text-align:center;
     text-transform:uppercase;
+    /* background-color: aqua; */
 }
+.navbar {
+    display:flex;
 
-nav a {
-    display:inline-block;
-    padding: 2% 3% ;
-    margin:2%;
+}
+nav li,a {
+    flex:1;
+    list-style-type: none;
+    margin:1%;
+    margin-top:auto;
+    margin-bottom:auto;
     border-radius: 5%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     color: rgb(42, 42, 161);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 110%;
     text-align:center;
     text-transform:capitalize;
+}
 
+nav img {
+    height: 5vw;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
 }
 
 .active {
-    font-weight: bold;
-    background-color: rgb(213, 196, 85);
+    font-weight:bold;
+    /* background-color: rgb(213, 196, 85); */
 }
