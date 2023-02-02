@@ -1,4 +1,5 @@
 body {
+    background-color: #f9f2ed;
     padding: 3%;
     margin: 1%;
 }
@@ -21,8 +22,8 @@ nav li,a {
     margin-top:auto;
     margin-bottom:auto;
     border-radius: 5%;
-    background-color: rgb(255, 255, 255);
-    color: #01a3fe;
+    background-color: #f9f2ed;
+    color: #3ab0ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     font-size: 120%;
