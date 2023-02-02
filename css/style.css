@@ -70,11 +70,11 @@ button {
 }
 
 div.gallery {
-    border: 1px solid #ccc;
+    border: 1px solid #f9f2ed;
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #3ab0ff;
   }
   
   div.gallery img {
@@ -117,7 +117,7 @@ div.gallery {
   }
 
   .footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
