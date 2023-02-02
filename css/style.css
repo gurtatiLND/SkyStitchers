@@ -60,3 +60,10 @@ main.ready>div {
 main.ready>div>h2 {
     margin-top: 0;
 }
+
+button {
+    background-color: #ffb562;
+    color:black;
+    border-radius: 5px;
+    border: none;
+}
