@@ -35,18 +35,20 @@ nav li, a {
     background-color: #f9f2ed;
     color: #2e33f5;
     font-family: Lato, Inter;
+    font-weight:black;
     text-decoration: none;
     font-size: 120%;
     text-align:center;
-    text-transform:capitalize;
+    /* text-transform:capitalize; */
+    text-transform:uppercase;
 }
 
 
 
 nav img {
     height: 5vw;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
@@ -77,6 +79,8 @@ button {
     border-radius: 5px;
     border: none;
     padding: 10px 26px;
+    font-family: Barlow;
+    font-weight:bold 700;
 }
 
 div.gallery {
@@ -133,10 +137,6 @@ h1, h2, h3, h4{
 
 p {
   font-family: Nunito;
-}
-
-button {
-  font-family: Barlow;
 }
 
 .footer {
