@@ -22,6 +22,7 @@ body {
 header {
   padding: 1%;
   color:rgb(0, 0, 0);
+  text-align: center;
 }
 
 .navbar {
@@ -71,19 +72,10 @@ main.ready>div {
     margin: 1%;
 }
 
-.about * ,.start * {
+.start *, .about * {
+  margin:auto;
   width: 65vw;
-  margin:auto;
 }
-/* .about>div>div {
-  width: 40vw;
-  background-color: aqua;
-  margin:auto;
-}
-
-.about img {
-  width:40vw;
-} */
 
 button {
     background-color: #ffb562;
