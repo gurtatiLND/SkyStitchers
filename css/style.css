@@ -71,7 +71,7 @@ main.ready>div {
     margin: 1%;
 }
 
-.about * {
+.about * ,.start * {
   width: 65vw;
   margin:auto;
 }
