@@ -34,11 +34,18 @@ nav li, a {
     border-radius: 5%;
     background-color: #f9f2ed;
     color: #3ab0ff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Lato, Inter;
     text-decoration: none;
     font-size: 120%;
     text-align:center;
     text-transform:capitalize;
+}
+
+h1, h2, h3, h4{
+  font-family: Nunito;
+  font-weight: bold;
+
+  
 }
 
 nav img {
@@ -98,7 +105,7 @@ div.desc {
 }
   
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
   
 .responsive {
