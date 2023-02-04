@@ -1,11 +1,11 @@
 /* 
 Our colour palette
 
-#2e33f5
+#f9f2ed
 #ffb562
 #f87474
 #3ab0ff
-#f9f2ed 
+#2e33f5
 
 */
 
@@ -33,7 +33,7 @@ nav li, a {
     margin: auto 1%;
     border-radius: 5%;
     background-color: #f9f2ed;
-    color: #3ab0ff;
+    color: #2e33f5;
     font-family: Lato, Inter;
     text-decoration: none;
     font-size: 120%;
@@ -41,12 +41,7 @@ nav li, a {
     text-transform:capitalize;
 }
 
-h1, h2, h3, h4{
-  font-family: Nunito;
-  font-weight: bold;
 
-  
-}
 
 nav img {
     height: 5vw;
@@ -58,6 +53,8 @@ nav img {
 
 .active {
     font-weight:bold;
+    font-size: 150%;
+    text-shadow: 2px 2px 2px #ffb562;
     /* background-color: #ffb562; */
 }
 
@@ -131,6 +128,15 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+h1, h2, h3, h4{
+  font-family: Lato;
+  font-weight: bold;
+}
+
+p {
+  font-family: Nunito;
 }
 
 .footer {
