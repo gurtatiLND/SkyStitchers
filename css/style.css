@@ -34,8 +34,9 @@ nav li, a {
     border-radius: 5%;
     background-color: #f9f2ed;
     color: #2e33f5;
+    text-shadow: 2px 2px 2px #f9f2ed;
     font-family: Lato, Inter;
-    font-weight:black;
+    font-weight:bold;
     text-decoration: none;
     font-size: 120%;
     text-align:center;
@@ -54,8 +55,6 @@ nav img {
 }
 
 .active {
-    font-weight:bold;
-    font-size: 130%;
     text-shadow: 2px 2px 2px #ffb562;
     /* background-color: #ffb562; */
 }
@@ -133,6 +132,10 @@ div.desc {
 h1, h2, h3, h4{
   font-family: Lato;
   font-weight: bold;
+}
+h1 {text-align: center;
+  padding:2%;
+  margin:1%;
 }
 
 p {
