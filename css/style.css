@@ -2,8 +2,8 @@
 Our colour palette
 
 #2e33f5
-#f87474
 #ffb562
+#f87474
 #3ab0ff
 #f9f2ed 
 
@@ -27,12 +27,10 @@ header {
     display:flex;
 
 }
-nav li,a {
+nav li, a {
     flex:1;
     list-style-type: none;
-    margin:1%;
-    margin-top:auto;
-    margin-bottom:auto;
+    margin: auto 1%;
     border-radius: 5%;
     background-color: #f9f2ed;
     color: #3ab0ff;
@@ -53,7 +51,7 @@ nav img {
 
 .active {
     font-weight:bold;
-    /* background-color: rgb(213, 196, 85); */
+    /* background-color: #ffb562; */
 }
 
 main.ready {
