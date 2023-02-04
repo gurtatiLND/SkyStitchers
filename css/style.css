@@ -125,3 +125,5 @@ div.gallery {
     color: black;
     text-align: center;
   }
+
+  footer li {list-style-type: none;}
