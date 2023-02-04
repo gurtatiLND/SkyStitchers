@@ -53,7 +53,7 @@ nav img {
 
 .active {
     font-weight:bold;
-    font-size: 150%;
+    font-size: 130%;
     text-shadow: 2px 2px 2px #ffb562;
     /* background-color: #ffb562; */
 }
@@ -69,10 +69,6 @@ main.ready>div {
     background-color: rgba(87, 227, 227,0.5);
     margin: 1%;
 
-}
-
-main.ready>div>h2 {
-    margin-top: 0;
 }
 
 button {
@@ -137,6 +133,10 @@ h1, h2, h3, h4{
 
 p {
   font-family: Nunito;
+}
+
+button {
+  font-family: Barlow;
 }
 
 .footer {
