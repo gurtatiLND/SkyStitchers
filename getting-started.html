@@ -7,7 +7,6 @@
     <title>Get Ready</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Inter|Nunito|Barlow">
-    <script src = "js/main.js"></script>
 </head>
 <body>
     <header>
@@ -23,41 +22,53 @@
             </ul>
 		</nav>
         <h1>Let's Get Ready</h1>
-        <p>Here you will find all the info to get started...</p>
+        <p>Here is a guide to getting started.</p>
     </header>
 
 
     <main class="start">
         <section id="find-tools">
-            <div>
-                <img src="images/img13.png" alt="a spool of thread">
-            </div>
-            <div>
+            <div class="start-container">
                 <h2>Assemble Basic Tools</h2>
-                <p>Easy instructions here</p>
-                <button class="btn">Tools ready?</button>
+                <div>
+                    <img src="images/img13.png" alt="a spool of thread">
+                </div>
+                <div>
+                    <p>We will need a few tools to start stitching!</p>
+                    <button class="start" id="tool-guide">Click for tool checklist</button>
+                    <div class="uncover" id="guide-to-tools"></div>
+                    <button class="setup-done" id="toolkit-ready">Tools ready?</button>
+                </div>
             </div>
         </section>
 
 
         <section id="find-space">
-            <div>
-                <img src="images/img14.png" alt="a spool of thread">
-            </div>
-            <div>
-                <h2>Find a Space</h2>
-                <p>Easy instructions here</p>
-                <button class="btn">Found a space?</button>
-            </div>
+                <div class ="start-container">
+                    <h2>Find a Space</h2>
+                    <div>
+                        <img src="images/img14.png" alt="a spool of thread">
+                    </div>
+                    <div>
+                        <p>Easy instructions here</p>
+                        <button class="start" id="space-guide">How to find the right space</button>
+                        <div class="uncover" id="guide-to-space"></div>
+                        <button class="setup-done" id="space-ready">Found a space?</button>
+                    </div>
+                </div>
         </section>
 
         <section id="find-project">
-            <div>
-                <img src="images/img2.png" alt="a spool of thread">
+            <div class ="start-container">
+                <h2>Pick a Project</h2>
+                <div>
+                    <img src="images/img2.png" alt="a spool of thread">
+                </div>
+                <p>Easy instructions here</p>
+                <button class="start" id="space-guide">How to choose a project</button>
+                <div class="uncover" id="guide-to-projects"></div>
+                <button class="setup-done">All set?</button>
             </div>
-            <h2>Pick a Project</h2>
-            <p>Easy instructions here</p>
-            <button class="btn">Ready to start?</button>
         </section>
     </main>
     
@@ -69,5 +80,6 @@
             </ul>
         </div>
     </footer> 
+    <script src = "js/main.js"></script>
 </body>
 </html>

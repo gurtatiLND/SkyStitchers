@@ -77,6 +77,8 @@ main.ready>div {
   width: 65vw;
 }
 
+
+
 button {
     background-color: #ffb562;
     color:black;
@@ -149,6 +151,22 @@ p {
 main {
   flex: 1 0 auto;
   }
+
+.start-container {
+  margin-bottom: 10vh;
+}
+
+button.start, button.setup-done {
+  display:block;
+  margin:2% auto;
+  width:auto;
+}
+
+.start h2, h3, p {
+  text-align: center;
+  margin: 2vh 1vw;
+}
+
 footer {
   bottom : 2px;
   margin: 2% 0%;
