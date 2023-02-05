@@ -166,6 +166,14 @@ button.start, button.setup-done {
   text-align: center;
   margin: 2vh 1vw;
 }
+/* #toolkit-ready {
+  display: none;
+} */
+
+button.setup-done {
+  background-color: red;
+  display: none ;
+}
 
 footer {
   bottom : 2px;
