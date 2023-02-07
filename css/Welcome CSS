@@ -21,17 +21,7 @@
 .navbar .logo{
   float: left;
   position:relative;
-  background-image: url(Logo.png);
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: 24px;
-  margin: 13px;
-  background-size:contain;
-  background-color: #F87474;
-  box-sizing: content-box;
-  border-radius: 0%;
-  width: 24px;
-
+ 
 
 
 
