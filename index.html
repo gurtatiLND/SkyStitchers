@@ -1,93 +1,77 @@
-!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkySticher</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>SkySticher</title>
+      <link rel="stylesheet" href="css/welcome.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <title>Skystichers</title>
+  </head>
+
+
+  <body>
+    <header> 
+      <div class="navbar"> 
+        <a class="logo" href="skystichers.html"><span class="material-symbols-outlined">star</span>Skystichers</a>
+        <a class="active" href="skystichers.html"><span class="material-symbols-outlined">Home</span> Home</a>
+        <a href="#"><span class="material-symbols-outlined">home_repair_service</span></span>Getting started</a>
+        <a href="#"><span class="material-symbols-outlined">brush</span> Create</a>
+        <a href="#"><span class="material-symbols-outlined">calendar_month</span> Events</a>
+        <a href="#"><span class="material-symbols-outlined">favorite</span>About Us</a>
+      </div>
+    </header>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade ">
+        <img src="images/img1.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade ">
+        <img src="images/img2.png" style="width:100%">
+      </div>
+      <div class="mySlides fade ">
+        <img src="images/img1.png" style="width:100%">
+      </div>
     
-</head>
-<script src="Skystichers.js"></script>
-<title>Skystichers</title>
+      <!-- Next and previous buttons -->
+      <br>
 
-<body>
-<header> 
-  <div class="navbar"> 
+    <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
 
-    <a class="logo" href="skystichers.html"><span class="material-symbols-outlined">
-      star
-      </span>Skystichers</a>
-
-
-  <a class="active" href="skystichers.html"><span class="material-symbols-outlined">Home
-   </span> Home</a>
-
-    <a href="#"><span class="material-symbols-outlined">
-      home_repair_service</span></span>Getting started</a>
-
-      <a href="#"><span class="material-symbols-outlined">
-        brush
-        </span> Create</a>
-    <a href="#"><span class="material-symbols-outlined">
-      calendar_month
-      </span> Events</a>
-    <a href="#"><span class="material-symbols-outlined">
-      favorite
-      </span>About Us</a>
-  </div>
-  
-</header>
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade ">
-    <img src="1.png" style="width:100%">
-  </div>
-
-  <div class="mySlides fade ">
-    <img src="2.jpeg" style="width:100%">
-  </div>
-  <div class="mySlides fade ">
-    <img src="3.jpeg" style="width:100%">
-  </div>
-
-  <!-- Next and previous buttons -->
-  
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-<!--Buttons-->
+    <!--Buttons-->
+        <div class="container">
+          <img src="About Us.png" alt="Snow" style="width:100%">
+          <button class="btn">Make</button>
+        </div>
 
 
-<div class="container">
-  <img src="About Us.png" alt="Snow" style="width:100%">
-  <button class="btn">Make</button>
-</div>
+        <div class="container">
+          <img src="Events.png" alt="Snow" style="width:100%">
+          <button class="btn">Events</button>
+        </div>
 
 
-<div class="container">
-  <img src="Events.png" alt="Snow" style="width:100%">
-  <button class="btn">Events</button>
-</div>
-
-
-<div class="container">
-  <img src="create page.png" alt="Snow" style="width:100%">
-  <button class="btn">About U</button>
-</div>
-<div class="footer">
-  <p>Footer</p>
-</div>
-
-</body>
+        <div class="container">
+          <img src="create page.png" alt="Snow" style="width:100%">
+          <button class="btn">About U</button>
+        </div>
+    
+    </div>
+    
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  <script src="js/welcome.js"></script>
+  </body>
+</html>
 
 
 
