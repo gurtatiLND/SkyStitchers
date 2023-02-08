@@ -9,7 +9,11 @@ Our colour palette
 
 */
 
-
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
 body {
   display: flex;
@@ -90,10 +94,7 @@ div.desc {
   font-weight: bold;
   font-size: 18px;
 }
-  
-* {
-  box-sizing: border-box;
-}
+
   
 .responsive {
   padding: 0 6px;
@@ -162,11 +163,11 @@ width: 65vw;
 } */
 main.start>section>div {
   display:flex;
-  flex: 1 0 auto;
-  justify-content: center;
-  /* align-items:center; */
   flex-wrap: wrap;
-  gap: 2vw;
+  flex: 1 0 auto;
+  justify-content: space-evenly;
+  padding: 2%;
+  /* align-items:center; */
 }
 
 
