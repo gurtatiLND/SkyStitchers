@@ -15,8 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #f9f2ed;
-  padding: 3%;
-  margin: 1%;
+  /* padding: 3%; */
 }
 
 header {
@@ -59,24 +58,6 @@ nav img {
     text-shadow: 2px 2px 2px #ffb562;
     /* background-color: #ffb562; */
 }
-
-main.ready {
-    margin-left: 10vw;
-    margin-right:10vw;
-}
-
-main.ready>div {
-    color: #01a3fe;
-    height:30vw;
-    background-color: rgba(87, 227, 227,0.5);
-    margin: 1%;
-}
-
-.start *, .about * {
-  margin:auto;
-  width: 65vw;
-}
-
 
 
 button {
@@ -153,14 +134,12 @@ p {
 }
 main {
   flex: 1 0 auto;
-  }
-
-.start-container {
-  margin-bottom: 10vh;
 }
 
+/* Getting Started page styling starts */
+
 button.start, button.setup-done {
-  display:block;
+  display:inline-block;
   margin:2% auto;
   width:auto;
 }
@@ -169,14 +148,51 @@ button.start, button.setup-done {
   text-align: center;
   margin: 2vh 1vw;
 }
-/* #toolkit-ready {
-  display: none;
-} */
 
 button.setup-done {
   background-color: red;
   display: none ;
 }
+
+
+
+/* .start *, .about * {
+margin:auto;
+width: 65vw;
+} */
+main.start>section>div {
+  display:flex;
+  flex: 1 0 auto;
+  justify-content: center;
+  /* align-items:center; */
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+
+@media screen and (min-width:500px) {
+  main.start>section>div img, main.start>section>div .gallery {
+    width:80vw;
+    /* flex: 1 0 auto;
+    justify-content: center; */
+  }
+}
+
+@media screen and (min-width:900px) {
+  main.start>section>div img, main.start>section>div .gallery {
+    width:40vw;
+    /* flex: 1 0 auto;
+    justify-content: center; */
+  }
+}
+
+main.start div.gallery {
+  /* background colour temporary to help with styling */
+  background-color: rgba(87, 227, 227,0.5);
+}
+
+/* Getting Started page styling ends */
+
 
 footer {
   bottom : 2px;
