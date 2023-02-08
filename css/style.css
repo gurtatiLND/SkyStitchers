@@ -212,12 +212,14 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #3ab0ff;
-  color: black;
+  color: #f9f2ed;
   text-align: center;
   vertical-align: middle; 
 }
 
-footer li {list-style-type: none;}
+footer li {
+  list-style-type: none;
+}
 
 ul li {
   font-family: Nunito;
