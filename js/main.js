@@ -5,3 +5,5 @@ function uncoverToolGuide() {
 
 let toolGuideButton = document.getElementById("tool-guide");
 toolGuideButton.addEventListener("click",uncoverToolGuide);
+
+
