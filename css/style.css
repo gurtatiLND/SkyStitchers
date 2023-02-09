@@ -314,3 +314,147 @@ ul li {
   background-color: #3ab0ff;
   color: #f9f2ed;
 }
+
+/events page/
+
+.newsletter {
+margin-top: 58px;
+}
+.events {
+    margin-top: 13px;
+    display: grid;
+    grid-template-rows: 220px 220px 220px;
+    grid-template-columns: 240px 240px 240px;
+    justify-content: center;
+}
+.get {
+    margin-top: 13px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+.host {
+    margin-top: 13px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+.reviews {
+    margin-top: 58px;
+    font-family: 'Lato', sans-serif;
+    }
+.sponsors {
+margin-top: 58px;
+font-family: 'Lato', sans-serif;
+}
+.sponsorscarousel {
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.planner {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 16px;
+    margin-top: 13px;
+    text-align: center;
+}
+.links {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 16px;
+    margin-top: 13px;
+}
+.subscribe {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 42px;
+    padding: 0px;
+    text-align: center;
+}
+.rectangle {
+    width: 724px;
+    height: 220px;
+    padding: 1px 1px 1px 1px;
+    background: #eaeeff;
+    border-radius: 28px 28px 28px 28px;
+    border: 1px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+.reviewsrectangle {
+    width: 532px;
+    height: 193px;
+    padding: 8px 8px 8px 8px;
+    background: #ffeeca;
+    border-width: 1px;
+    border-radius: 6px 6px 6px 6px;
+}
+.review1 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.review2 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.review3 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.address {
+    width: 267px;
+    height: 30px;
+    padding: 4px 4px 4px 4px;
+    background: #ffffff;
+    color: #c0c0c0;
+    border-color: #ebebeb;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 168px;
+    float: left;
+}
+
+.sponsorlogo {
+    flex: 33.33%;
+  }
