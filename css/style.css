@@ -30,6 +30,13 @@ body {
  
 }
 
+.navbar {
+  width: 100%;
+  background-color: #3AB0FF;
+  overflow: auto;
+ 
+}
+
 /* Navbar links */
 .navbar a {
   float: right;
@@ -39,14 +46,19 @@ body {
   color: white;
   text-decoration: none;
   font-size: 17px;
-  background-color: #3AB0FF;
+  font-family: 'Courier New', Courier, monospace;
 
 }
 /*logo*/
-.navbar .logo{
+.primary-icon{
   float: left;
-  position:relative;
+  position: relative;
+  height: 28px; 
 }
+
+
+  
+
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
