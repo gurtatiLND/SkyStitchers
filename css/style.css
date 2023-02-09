@@ -548,24 +548,24 @@ font-family: 'Lato', sans-serif;
 
 /* Footer */
 
-  footer {
-    bottom : 2px;
-    margin: 2% 0%;
-    flex-shrink: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #f9f2ed;
-    color: #f9f2ed;
-    text-align: center;
-    vertical-align: middle; 
-    padding: 10px; 
-  }
+footer {
+  bottom : 2px;
+  margin: 2% 0%;
+  flex-shrink: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f2ed;
+  color: #f9f2ed;
+  text-align: center;
+  vertical-align: middle; 
+  padding: 10px; 
+}
   
-  footer li {
-    list-style-type: none;
-  }
+footer li {
+  list-style-type: none;
+}
   
-  ul li {
-    font-family: Nunito;
-  }
+ul li {
+  font-family: Nunito;
+}
