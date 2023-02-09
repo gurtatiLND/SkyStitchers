@@ -39,7 +39,7 @@ header li, header a {
     border-radius: 5%;
     background-color: #f9f2ed;
     color: #2e33f5;
-    text-shadow: 2px 2px 2px #f9f2ed;
+    /*text-shadow: 2px 2px 2px #f9f2ed;*/
     font-family: Lato, Inter;
     font-weight:bold;
     text-decoration: none;
