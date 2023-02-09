@@ -202,11 +202,22 @@ main.start h3 {
   font-size: 1.2rem;
 }
 
-.checkbox {
-  display:grid;
-}
 main.start div.gallery .more {
   display:none;
+}
+
+div.checkbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+div.checkbox .item {
+  border-radius: 5px;
+  margin: 2px;
+  padding: 1%;
+  background-color: #ffb562;
 }
 /* Getting Started page styling ends */
 
