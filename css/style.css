@@ -227,12 +227,10 @@ main.start h3 {
   font-size: 1.2rem;
 }
 
-.checkbox {
-  display:grid;
-}
 main.start div.gallery .more {
   display:none;
 }
+/* Getting Started page styling ends */
 
 /*Modal Box in make.page*/
 
