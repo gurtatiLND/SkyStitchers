@@ -27,10 +27,10 @@ header {
   text-align: center;
 }
 
-.navbar {
+/*.navbar {
     display:flex;
     justify-content: space-between;
-}
+}*/
 
 header li, header a {
     flex:1;
@@ -49,18 +49,18 @@ header li, header a {
     /* text-transform:uppercase; */
 }
 
-nav img {
+/*nav img {
     height: 5vw;
     width: 75px;
     height: 75px;
     margin: auto;
     /* background-color: rgb(255, 255, 255); */
-}
+/*} */
 
-.active {
+/*.active {
     text-shadow: 2px 2px 2px #ffb562;
     /* background-color: #ffb562; */
-}
+/*}*/
 
 
 button {

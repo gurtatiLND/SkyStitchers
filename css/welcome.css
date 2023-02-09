@@ -15,20 +15,13 @@
   color: white;
   text-decoration: none;
   font-size: 17px;
+  background-color: #3AB0FF;
 
 }
 /*logo*/
 .navbar .logo{
   float: left;
   position:relative;
- 
-
-
-
-
-
-
-
 }
 
 /* Navbar links on mouse-over */
