@@ -39,7 +39,7 @@ body {
 
 /* Navbar links */
 .navbar a {
-  float: right;
+  float:left;
   text-align: center;
   text-size-adjust:auto;
   padding: 20px;
