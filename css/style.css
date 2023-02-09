@@ -22,15 +22,54 @@ body {
   /* padding: 3%; */
 }
 
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #3AB0FF;
+  overflow: auto;
+ 
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  text-size-adjust:auto;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #3AB0FF;
+
+}
+/*logo*/
+.navbar .logo{
+  float: left;
+  position:relative;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #F87474;
+}
+
+/* Current/active navbar link */
+.active {
+  background: #FFB562;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
 header {
   padding: 1%;
   text-align: center;
 }
-
-/*.navbar {
-    display:flex;
-    justify-content: space-between;
-}*/
 
 header li, header a {
     flex:1;
@@ -48,20 +87,6 @@ header li, header a {
     text-transform:capitalize;
     /* text-transform:uppercase; */
 }
-
-/*nav img {
-    height: 5vw;
-    width: 75px;
-    height: 75px;
-    margin: auto;
-    /* background-color: rgb(255, 255, 255); */
-/*} */
-
-/*.active {
-    text-shadow: 2px 2px 2px #ffb562;
-    /* background-color: #ffb562; */
-/*}*/
-
 
 button {
     background-color: #ffb562;
@@ -208,30 +233,8 @@ main.start h3 {
 main.start div.gallery .more {
   display:none;
 }
-/* Getting Started page styling ends */
 
-
-footer {
-  bottom : 2px;
-  margin: 2% 0%;
-  flex-shrink: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #f9f2ed;
-  color: #f9f2ed;
-  text-align: center;
-  vertical-align: middle; 
-  padding: 10px; 
-}
-
-footer li {
-  list-style-type: none;
-}
-
-ul li {
-  font-family: Nunito;
-}
+/*Modal Box in make.page*/
 
 .modal {
   display: none; /* Hidden by default */
@@ -315,7 +318,7 @@ ul li {
   color: #f9f2ed;
 }
 
-/events page/
+/*events page*/
 
 .newsletter {
 margin-top: 58px;
@@ -457,4 +460,114 @@ font-family: 'Lato', sans-serif;
 
 .sponsorlogo {
     flex: 33.33%;
+}
+
+/*welcome page*/
+
+/* Slideshow container */
+
+.slideshow-container {
+  padding-top: 10px;
+  position: relative;
+  margin: auto;
+ 
+ }
+ /* Hide the images by default */
+ .mySlides {
+ display:none;
+ width:fit-page;
+ }
+ 
+ /* Next & previous buttons */
+ 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,.dot:hover {
+  background-color: #FFB562;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Buttons*/
+.container {
+
+  position:relative;
+  width: 100px;
+  max-width:fit-;
+}
+
+.container img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Footer */
+
+  footer {
+    bottom : 2px;
+    margin: 2% 0%;
+    flex-shrink: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f2ed;
+    color: #f9f2ed;
+    text-align: center;
+    vertical-align: middle; 
+    padding: 10px; 
+  }
+  
+  footer li {
+    list-style-type: none;
+  }
+  
+  ul li {
+    font-family: Nunito;
   }
