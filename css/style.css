@@ -309,8 +309,9 @@ main.start>div {
   width: 50%;
   font-size: 18px;
   font-weight: bold;
-  transition-duration: 0.3s;
-  position:relative;
+  /*transition-duration: 0.3s;
+  position:relative;*/
+  margin: 50px 50px 50px 0px;
 }
 
 #myBtn:hover {
