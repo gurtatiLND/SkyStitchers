@@ -185,7 +185,7 @@ main.start>section>div {
   /* align-items:center; */
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:300px) {
   main.start>section>div img, main.start>section>div .start-gallery {
     width:80vw;
     /* flex: 1 0 auto;
