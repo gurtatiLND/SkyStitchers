@@ -452,6 +452,10 @@ font-family: 'Lato', sans-serif;
     float: left;
 }
 
+.reviewscarousel {
+    display: none;
+}
+
 .sponsorlogo {
     flex: 33.33%;
 }
