@@ -225,10 +225,14 @@ main.start>div {
 
 #gomake {
   font-size: 130%;
-  background-color: #F87474;
+  background-color:#3AB0FF;
+  font-family: Barlow;
+  font-weight:bold 700;
   margin:3%;
 }
-/* Getting Started page styling ends */
+#gomake:hover {
+  background-color: #F87474;
+}
 
 /*Modal Box in make.page*/
 
@@ -627,9 +631,10 @@ font-family: 'Lato', sans-serif;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-  color: black;
-  font-size: 16px;
+  background-color:#3AB0FF;
+  font-size: 200%;
+  font-family: Barlow;
+  font-weight: bold 700;
   padding: 16px 30px;
   border: none;
   cursor: pointer;
@@ -638,8 +643,8 @@ font-family: 'Lato', sans-serif;
 }
 
 .container .btn:hover {
-  background-color: black;
-  color: white;
+  background-color:#F87474;
+  /* color: white; */
 }
 
 /* Footer */
