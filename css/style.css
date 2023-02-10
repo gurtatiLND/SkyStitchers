@@ -172,10 +172,6 @@ button.setup-done {
   display: none ;
 }
 
-/* .start *, .about * {
-margin:auto;
-width: 65vw;
-} */
 main.start>div {
   display:flex;
   flex-wrap: wrap;
@@ -225,6 +221,12 @@ main.start>div {
 .start-gallery .uncover {
   /* display:none; */
   text-align: center;
+}
+
+#gomake {
+  font-size: 130%;
+  background-color: #F87474;
+  margin:3%;
 }
 /* Getting Started page styling ends */
 
