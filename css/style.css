@@ -27,8 +27,8 @@ body {
   width: 100%;
   background-color: #3AB0FF;
   overflow: auto;
-  /* display:flex;
-  justify-content: space-between; */
+  display:flex;
+  justify-content: space-between;
  
 }
 
@@ -65,10 +65,10 @@ body {
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-  /* .navbar {
+@media screen and (max-width: 750px) {
+  .navbar {
     flex-direction: column;
-  } */
+  }
   .navbar a {
     float: none;
     display: block;
@@ -172,11 +172,7 @@ button.setup-done {
   display: none ;
 }
 
-/* .start *, .about * {
-margin:auto;
-width: 65vw;
-} */
-main.start>section>div {
+main.start>div {
   display:flex;
   flex-wrap: wrap;
   flex: 1 0 auto;
@@ -186,7 +182,7 @@ main.start>section>div {
 }
 
 @media screen and (min-width:300px) {
-  main.start>section>div img, main.start>section>div .start-gallery {
+  .start-container img, .start-container .start-gallery {
     width:80vw;
     /* flex: 1 0 auto;
     justify-content: center; */
@@ -194,7 +190,7 @@ main.start>section>div {
 }
 
 @media screen and (min-width:700px) {
-  main.start>section>div img, main.start>section>div .start-gallery {
+  .start-container img, .start-container .start-gallery {
     width:45vw;
     /* flex: 1 0 auto;
     justify-content: center; */
@@ -225,6 +221,12 @@ main.start>section>div {
 .start-gallery .uncover {
   /* display:none; */
   text-align: center;
+}
+
+#gomake {
+  font-size: 130%;
+  background-color: #F87474;
+  margin:3%;
 }
 /* Getting Started page styling ends */
 
@@ -663,6 +665,6 @@ footer li {
   list-style-type: none;
 }
   
-ul li {
+footer ul li {
   font-family: Nunito;
 }
