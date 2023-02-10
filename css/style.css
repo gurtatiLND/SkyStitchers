@@ -452,6 +452,41 @@ font-family: 'Lato', sans-serif;
     float: left;
 }
 
+.galleryevents {
+  margin: 0px;
+  border: 1px solid white;
+  float: left;
+  width: 240px;
+}
+
+.galleryevents:hover {
+  border: 3px solid #ffb562;
+}
+
+.galleryevents img {
+  width: 100%;
+  height: auto;
+}
+
+.desc2 {
+  padding: 0px;
+  text-align: center;
+  background-color: #3AB0FF;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+.desc1 {
+  padding: 0px;
+  text-align: center;
+  background-color: #f87474;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+
 .reviewscarousel {
     display: none;
 }
