@@ -39,10 +39,12 @@ body {
   color: white;
   text-decoration: none;
   font-size: 17px;
-  font-family: Nunito;
-  /*background-color: #3AB0FF;*/
-
+  /* font-size: 120%; */
+  /* font-family: Nunito; */
+  font-family: Lato, Inter;
+  font-weight:bold;
 }
+
 /*logo*/
 .primary-icon{
   float: left;
@@ -71,23 +73,6 @@ body {
 header {
   padding: 1%;
   text-align: center;
-}
-
-header li, header a {
-    flex:1;
-    list-style-type: none;
-    margin: auto 1%;
-    border-radius: 5%;
-    background-color: #3ab0ff;
-    color: #2e33f5;
-    /*text-shadow: 2px 2px 2px #f9f2ed;*/
-    font-family: Lato, Inter;
-    font-weight:bold;
-    text-decoration: none;
-    font-size: 120%;
-    text-align:center;
-    text-transform:capitalize;
-    /* text-transform:uppercase; */
 }
 
 button {
