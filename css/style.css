@@ -176,7 +176,7 @@ button.setup-done {
 margin:auto;
 width: 65vw;
 } */
-main.start>section>div {
+main.start>div {
   display:flex;
   flex-wrap: wrap;
   flex: 1 0 auto;
@@ -186,7 +186,7 @@ main.start>section>div {
 }
 
 @media screen and (min-width:300px) {
-  main.start>section>div img, main.start>section>div .start-gallery {
+  .start-container img, .start-container .start-gallery {
     width:80vw;
     /* flex: 1 0 auto;
     justify-content: center; */
@@ -194,7 +194,7 @@ main.start>section>div {
 }
 
 @media screen and (min-width:700px) {
-  main.start>section>div img, main.start>section>div .start-gallery {
+  .start-container img, .start-container .start-gallery {
     width:45vw;
     /* flex: 1 0 auto;
     justify-content: center; */
@@ -663,6 +663,6 @@ footer li {
   list-style-type: none;
 }
   
-ul li {
+footer ul li {
   font-family: Nunito;
 }
