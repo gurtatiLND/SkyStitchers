@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #f9f2ed;
-  /* padding: 3%; */
+  padding: 1%;
 }
 
 /* Style the navigation bar */
@@ -27,6 +27,8 @@ body {
   width: 100%;
   background-color: #3AB0FF;
   overflow: auto;
+  /* display:flex;
+  justify-content: space-between; */
  
 }
 
@@ -63,16 +65,14 @@ body {
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
+  /* .navbar {
+    flex-direction: column;
+  } */
   .navbar a {
     float: none;
     display: block;
   }
-}
-
-header {
-  padding: 1%;
-  text-align: center;
 }
 
 button {
