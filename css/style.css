@@ -151,11 +151,13 @@ p {
   margin-left: 50px;
   margin-right: 50px;
 }
+
 main {
   flex: 1 0 auto;
 }
 
 /* Getting Started page styling starts */
+
 button.start, button.setup-done {
   display:inline-block;
   margin:2% auto;
