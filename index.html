@@ -9,6 +9,8 @@
         <link rel="icon" type="image/x-icon" href="/images/logo_1.png">
     </head>
     <script src="js/welcome.js"></script>
+    <script defer src="js/disclaimer.js"></script>
+    <script defer src="js/terms.js"></script>
     <title>Skystichers</title>
 
     <body>
@@ -87,11 +89,45 @@
 
       <footer>
         <div class="footer">
-            <ul>
-                <li><a href="disclamer.html"> Disclaimer</a></li>
-                <li><a href="Termsandconditions.html">Terms and Conditions</a> </li>
-                <p>Created by Team Blue @2023</p>
-            </ul>
+          <ul>
+            <li>
+            <a id="discllink">Disclaimer</a>
+            <div id="disclModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="disclclose">&times;</span>
+                        <h2>Disclaimer</h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            This is not the official West Highland Way website and is for general purpose and information use only. <br>
+                            The information is provided by Skystitchers and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+                        </p>
+                        <p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.
+                        </p>
+                        <p>Through this website you are able to link to other websites which are not under the control of Skystitchers. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </li>
+            <li>
+                <a id="tclink">Terms and Conditions</a>
+                <div id="tcModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="tcclose">&times;</span>
+                            <h2>Terms and Conditions</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>This is a mock website for a challenge created by CFG, therefore the terms and conditions are not fully written </p>
+                            <p> In general terms and condtions will be about how the website should be used and how the website generates and keeps the infornation safe. As it is a website for children, the conditons would be about the sfaeguarding of young children.</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <p>Created by Team Blue @2023</p>
+        </ul>
         </div>
       </footer> 
     </body>    

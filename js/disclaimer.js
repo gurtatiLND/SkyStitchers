@@ -1,27 +1,27 @@
 //JS for Disclaimer modal box 
 
 // Get the modal
-var modal = document.getElementById("disclModal");
+var diclModal = document.getElementById("disclModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("discllink");
+var disclBtn = document.getElementById("discllink");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("disclclose")[0];
+var disclSpan = document.getElementsByClassName("disclclose")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
+disclBtn.onclick = function() {
+  disclModal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+disclSpan.onclick = function() {
+  disclModal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
+    disclModal.style.display = "none";
   }
 }
