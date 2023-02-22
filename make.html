@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Inter|Nunito|Barlow">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="/images/logo_1.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script defer src="js/js_make.js"></script>
 </head>
 <body>
@@ -34,38 +37,56 @@
               <a href="about.html"><span class="material-symbols-outlined">favorite</span>
                 About Us</a>
             </div>
-          </nav>
+        </nav>
         <h1>Creativity Zone</h1>
         <p> 
             Let your imagination run wild as you learn about the wonderful world of textiles and create something truly special. So, come on in and join the adventure!
         </p>
     </header>
     
-    <main>    
-        <div class="responsive">
-            <div class="gallery">
-                    <img src="images/img24.png" alt="hands of a child who sews" width="600" height="400">      
-                <div class="desc">Fantastic Felt workshop for schools and youth groups</div>
+    <main>  
+        <div class="row">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="images/img24.png" target="_blank">
+                        <img src="images/img24.png" alt="hands of a child who sews" style="width:100%">
+                        <div class="caption">
+                            <p>Fantastic Felt workshop for schools and youth groups</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                    <img src="images/img26.png" alt="girl making a pattern on paper" width="600" height="400">
-                <div class="desc">Introduction to Frame Loom Weaving Workshop</div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="images/img26.png" target="_blank">
+                        <img src="images/img26.png" alt="girl making a pattern on paper" style="width:100%">
+                        <div class="caption">
+                            <p>Introduction to Frame Loom - Weaving Workshop for all ages</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                    <img src="images/img27.png" alt="work with felt" width="600" height="400">
-                <div class="desc">Contemporary Woven Cushion Workshop - Frame Loom</div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="images/img27.png" target="_blank">
+                        <img src="images/img27.png" alt="work with felt" style="width:100%">
+                        <div class="caption">
+                            <p>Contemporary Woven Cushion Workshop - Frame Loom</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                    <img src="images/img28.png" alt="girl sews a doll with mom" width="600" height="400">
-                <div class="desc">Introduction to Weaving: Private Workshop (Teens)</div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="images/img28.png" target="_blank">
+                        <img src="images/img28.png" alt="girl sews a doll with mom" style="width:100%">
+                        <div class="caption">
+                            <p>Introduction to Weaving: Private Workshop (Teens)</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
+        </div>  
         <button type="button" id="myBtn">Choose your tutorial</button>
         <div id="myModal" class="modal">
             <div class="modal-content">
