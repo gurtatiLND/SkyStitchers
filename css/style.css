@@ -218,24 +218,29 @@ main.start>div {
   display:flex;
   flex-direction: column;
   justify-content: space-evenly;
+  font-family: Lato, Inter;
 }
 
 .start-gallery .item {
   background-color: #ffb562;
-  /* border: 2px black solid; */
   text-align: center;
-  border-radius: 2%;
+  border-radius: 10px;
   margin:1%;
-  padding:1.2%;
+  padding:1%;
 }
 
-.start-gallery .more {
-  display:none;
+.start-gallery p {
   text-align: center;
+  margin: 1px;
+  font-size: medium;
+}
+
+ul.tips {
+  display: contents;
+  list-style-type:circle;
 }
 
 .start-gallery .uncover {
-  /* display:none; */
   text-align: center;
 }
 
@@ -326,6 +331,7 @@ main.start>div {
   width: 100%;
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
   /*transition-duration: 0.3s;
   position:relative;*/
   /*margin: 50px 50px 50px 50px;*/

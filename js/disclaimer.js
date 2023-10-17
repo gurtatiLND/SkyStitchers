@@ -1,7 +1,7 @@
 //JS for Disclaimer modal box 
 
 // Get the modal
-var diclModal = document.getElementById("disclModal");
+var disclModal = document.getElementById("disclModal");
 
 // Get the button that opens the modal
 var disclBtn = document.getElementById("discllink");
