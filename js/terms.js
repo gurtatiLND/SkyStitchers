@@ -7,7 +7,7 @@ var tcModal = document.getElementById("tcModal");
 var tcBtn = document.getElementById("tclink");
 
 // Get the <span> element that closes the modal
-var tcSpan = document.getElementsByClassName("tcclose")[0];
+var span = document.getElementsByClassName("tcClose")[0];
 
 // When the user clicks the button, open the modal 
 tcBtn.onclick = function() {
@@ -15,13 +15,13 @@ tcBtn.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-tcSpan.onclick = function() {
+span.onclick = function() {
   tcModal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    tcModal.style.display = "none";
-  }
-}
+//window.onclick = function(event) {
+  //if (event.target == tcModal) {
+    //tcModal.style.display = "none";
+  //}
+//}

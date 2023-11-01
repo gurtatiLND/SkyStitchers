@@ -312,6 +312,36 @@ ul.tips {
   cursor: pointer;
 }
 
+/*THE CLOSE BUTTON FOR DISCLAIMER*/
+.disClose {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.disClose:hover,
+.disClose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*THE CLOSE BUTTON FOR terms*/
+.tcClose {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.tcClose:hover,
+.tcClose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .modal-header {
   font-family: Lato;
   padding: 2px 16px;
@@ -345,7 +375,8 @@ ul.tips {
 /*events page*/
 
 .newsletter {
-margin-top: 58px;
+  margin-top: 58px;
+  
 }
 .events {
     margin-top: 13px;
@@ -410,7 +441,7 @@ font-family: 'Lato', sans-serif;
     width: 724px;
     height: 220px;
     padding: 1px 1px 1px 1px;
-    background: #eaeeff;
+    background: #3ab0ff;
     border-radius: 28px 28px 28px 28px;
     border: 1px;
 }
@@ -490,7 +521,6 @@ font-family: 'Lato', sans-serif;
   font-family: Barlow;
   font-weight:bold;
 	border-width: 2px;
-	border-style: solid;
 	font-size: 16px;
 	text-align: center;
     margin-left: 1px;
@@ -500,7 +530,8 @@ font-family: 'Lato', sans-serif;
 
 .galleryevents {
   margin: 0px;
-  border: 1px solid white;
+  border: 1px solid #f9f2ed;
+  border-radius: 10px;
   float: left;
   width: 240px;
 }
